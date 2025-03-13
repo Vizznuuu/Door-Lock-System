@@ -15,7 +15,7 @@ function App() {
   const [showChangePassword, setShowChangePassword] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false); //New state for button disable
 
-  const flaskServerUrl = 'http://192.168.137.225:5000'; // Replace <YOUR_RASPBERRY_PI_IP> with the Pi's IP address
+  const flaskServerUrl = <YOUR_RASPBERRY_PI_IP>; // Replace <YOUR_RASPBERRY_PI_IP> with the Pi's IP address
 
   const getLocation = (callback) => {
     const options = {
